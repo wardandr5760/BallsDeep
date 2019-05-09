@@ -1,4 +1,4 @@
-package controllers;
+package com.AndrewPatrick.Quan.controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,7 +8,7 @@ public class TestController {
 
     @RequestMapping("/")
     public String hello() {
-        return "Greetings Summoner";
+        return "welcome.html";
     }
 
 }
