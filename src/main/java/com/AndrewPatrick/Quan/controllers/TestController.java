@@ -8,7 +8,7 @@ public class TestController {
 
     @RequestMapping("/")
     public String hello() {
-        return "welcome.html";
+        return "home.html";
     }
 
 }
